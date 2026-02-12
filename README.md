@@ -17,6 +17,8 @@ Thanks to GmoLargey for his testing and tutorial videos!
 
 Thanks to ☆- Tee -☆ from the TeamBeef Discord for the idea of the combined Use + Reload button mode (in the ConfTool)
 
+Thanks to gibst4r from the TeamBeef Discord for the idea of combined 6DOF motion plus a Non-VR mode (in the ConfTool)
+
 WinlatorXR API conversion (of the VR conversion by LivingFray, of the original PC version of Halo: Combat Evolved by Gearbox/Microsoft Games) by Bigelowed
 
 # Installation
