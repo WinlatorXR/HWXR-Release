@@ -77,3 +77,10 @@ In addition to the **Wine Mono Installer** in the **System Tools** menu required
 * A - Action
 
 [See the full project README](https://github.com/bigelod/HaloCEWXR/blob/master/README.md)
+
+# HWXR Conf Tool
+
+In the VR subfolder of your Halo CE install will be the **HWXR_ConfEdit.exe** tool, be sure to use this to tweak your experience to your liking!
+
+<img width="779" height="583" alt="image" src="https://github.com/user-attachments/assets/8b8b03a3-5488-45a9-a395-d610a726b88c" />
+
