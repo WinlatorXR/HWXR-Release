@@ -7,7 +7,7 @@ Thanks to LivingFray for the awesome [Halo CE VR](https://github.com/LivingFray/
 
 Additional thanks to these contributors to the LivingFray Halo CE VR mod:
 
-97saundersj, slipperfish, codyherzog, HaMM4R, teddybear082, kyanite-rock, s-ilent, TheKrisSodroski
+97saundersj, slipperfish, codyherzog, HaMM4R, teddybear082, kyanite-rock, s-ilent, TheKrisSodroski, MasoElCaveman
 
 **Note: This is a Halo CE PC VR mod that makes breaking changes from the parent mod it's based on, please do not spam any of the above developers with requests or issues related to this conversion!**
 
@@ -18,6 +18,8 @@ Thanks to GmoLargey for his testing and tutorial videos!
 Thanks to ☆- Tee -☆ from the TeamBeef Discord for the idea of the combined Use + Reload button mode (in the ConfTool)
 
 Thanks to gibst4r from the TeamBeef Discord for the idea of combined 6DOF motion plus a Non-VR mode (in the ConfTool)
+
+Thanks to MasoElCaveman for fixing multiplayer in their [Pull Request](https://github.com/LivingFray/HaloCEVR/pull/153) for the original PCVR mod! Note: This was then adapted to HWXR with the help of Big Pickle (OpenCode Zen) AI, which also helped add experimental SBS 3D
 
 WinlatorXR API conversion (of the VR conversion by LivingFray, of the original PC version of Halo: Combat Evolved by Gearbox/Microsoft Games) by Bigelowed
 
@@ -73,8 +75,8 @@ In addition to the **Wine Mono Installer** in the **System Tools** menu required
 * Left Menu Button - Escape / Menu (hold to recenter currently not implemented)
 * X - Switch Grenades
 * Y - Flashlight
-* B - Reload
-* A - Action
+* B - Reload (in pause/cutscene toggle two handed mode on/off)
+* A - Action (in pause/cutscene toggle between mono and AER 3D if not using SBS 3D mode)
 
 [See the full project README](https://github.com/bigelod/HaloCEWXR/blob/master/README.md)
 
@@ -83,4 +85,15 @@ In addition to the **Wine Mono Installer** in the **System Tools** menu required
 In the VR subfolder of your Halo CE install will be the **HWXR_ConfEdit.exe** tool, be sure to use this to tweak your experience to your liking!
 
 <img width="779" height="583" alt="image" src="https://github.com/user-attachments/assets/8b8b03a3-5488-45a9-a395-d610a726b88c" />
+
+# Known Bugs
+
+* Slight camera glitching when getting in and out of the vehicles
+* No virtual crouch impact on camera (clicking the button will still let you pass through barriers)
+* Loading a checkpoint while in a vehicle can be glitchy, exit and re-enter the vehicle
+* No recentre when pressing and holding the menu button (use HMD reset instead)
+* Weapon scope in SBS mode takes up the entire screen rather than a floating scope reticle
+* Multiplayer HUD follows the gun instead of the head, this is a known bug
+* Multiplayer HUD icons seem to be placed incorrectly for markers
+* Multiplayer can still have occasional glitches like player teleporting or strange reloads
 
